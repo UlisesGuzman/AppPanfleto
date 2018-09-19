@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.utng.apppanfleto.ContenidoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:src="@drawable/kotlin_android"
+        android:id="@+id/ivContenido"/>
+
+    <TextView
+        android:id="@+id/tvContenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/regresar"
+        android:id="@+id/btnRegresar"/>
+
+</LinearLayout>
